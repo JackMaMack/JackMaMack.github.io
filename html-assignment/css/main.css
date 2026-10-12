@@ -17,3 +17,17 @@ li:nth-child(odd) {
 ul {
     list-style-type: square;
 }
+
+
+.nav-links {
+    text-decoration: none;
+    color:white;
+    background-color: gray;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+a:hover {
+  color: rgb(16, 7, 70);
+}
+
