@@ -9,7 +9,6 @@ body {
 
 .wrapper {
     width: 800px;
-    background-color: azure;
     /*center block level element*/
     margin: 0 auto;
 }
@@ -32,4 +31,8 @@ nav li {
 
 nav li:last-child {
     border-right: none;
+}
+
+.header {
+    background-image: url('/images/Tyrannosaurus_Rex_Holotype.jpg');
 }
