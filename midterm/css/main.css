@@ -13,3 +13,23 @@ body {
     /*center block level element*/
     margin: 0 auto;
 }
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
+
+}
+
+nav li {
+    /*change block level property */
+    display: inline-block;
+    width: 250px;
+    /*usually change text the link */
+    font-size: 1.5rem;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+
+nav li:last-child {
+    border-right: none;
+}
