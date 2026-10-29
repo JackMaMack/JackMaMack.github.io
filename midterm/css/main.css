@@ -34,5 +34,8 @@ nav li:last-child {
 }
 
 .header {
-    background-image: url('/images/Tyrannosaurus_Rex_Holotype.jpg');
+    background-image: url("paper.gif");
+    background-image: url("images/Tyrannosaurus_Rex_Holotype.jpg");
+    background-position: center;
+    height: 400px;
 }
