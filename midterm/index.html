@@ -33,24 +33,36 @@
                 <li>it has a strong enough bite force that it can split a car in half</li>
                 <li>has eyesight 10 times better then humans</li>
             </ul>
-        </div>
-        <div class="form-content">
-            <h2>Contact to Learn More</h2>
-            <label for="Your-Name">Your Name</label> <br />
-            <input type="text">
-            <label for="Your-Email">Your Email</label> <br />
-            <input type="email">
-            <label for="Your-Message">Your Message</label> <br />
-            <textarea name="Your Message" id=""></textarea>
-            <label for="Would-you-like-to-visit-the-Tyrannosaurus">Would you like to visit the Tyrannosaurus?</label> <br />
-            <input type="radio" id="Yes" name="Tyrannosaurus" value="Yes">
-            <label for="Yes">Yes</label><br>
-            <input type="radio" id="No" name="Tyrannosaurus" value="No">
-            <label for="No">No</label><br>
-            <input type="radio" id="Maybe" name="Tyrannosaurus" value="Maybe">
-            <label for="Maybe">Maybe</label>
-            <button type="submit">Send</button>
+        
+            <div class="form-content">
+                <h2>Contact to Learn More</h2>
+                <label for="Your-Name"><strong>Your Name</strong></label> <br />
+                <input type="text">
+                <br />
+                <label for="Your-Email"><strong>Email</strong> </label> <br />
+                <input type="email">
+                <br />
+                <label for="Your-Message"><strong>Your Message</strong></label> <br />
+                <textarea name="Your Message" id=""></textarea>
+                <br />
+                <label class="radio-label" for="Would-you-like-to-visit-the-Tyrannosaurus"><strong>Would you like to visit the Tyrannosaurus?</strong></label> <br />
+                <label class="radio-label">
+                <input type="radio" name="visit" value="yes" checked>
+                Yes
+                </label>
 
+                <label class="radio-label">
+                <input type="radio" name="visit" value="No">
+                No
+                </label>
+
+                <label class="radio-label">
+                <input type="radio" name="visit" value="Maybe">
+                Maybe
+                </label>
+                <br />
+                <button type="submit" class="my-button">Send</button>
+            </div>
         </div>
     </div>
 </body>
