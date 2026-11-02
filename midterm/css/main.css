@@ -34,7 +34,7 @@ nav li:last-child {
 }
 
 .page-header {
-    background-image: url("../images/Stan_holotype.jpg");
+    background-image: url("/images/Stan_holotype.jpg");
     height: 400px;
     width: 100%;
     display: flex;
